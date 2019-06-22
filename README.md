@@ -1,14 +1,16 @@
-[Imgur](https://i.imgur.com/hRBZTSF.png)
+![alt text](https://imgur.com/o23e7hu.png)
+
+
+
+![alt text](http://url/to/img.png)
+
+
+
+
+![alt text](http://url/to/img.png)
 
 
 
 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="hRBZTSF"><a href="//imgur.com/hRBZTSF">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
-
-
-
-
-
-[img]https://i.imgur.com/hRBZTSF.png[/img]
+![alt text](http://url/to/img.png)
