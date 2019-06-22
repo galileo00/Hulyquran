@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    >
+
+
+    <TextView
+        android:id="@+id/recitersName"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="عبد الباسط عبد الصمر" />
+
+
+    <TextView
+        android:id="@+id/rewaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_16ssp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+
+        app:layout_constraintEnd_toEndOf="@+id/recitersName"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/recitersName"
+        app:layout_constraintTop_toBottomOf="@+id/moratal"
+        tools:text="حفص عن عاصم" />
+
+
+    <TextView
+        android:id="@+id/moratal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintEnd_toEndOf="@+id/recitersName"
+        app:layout_constraintStart_toStartOf="@+id/recitersName"
+        app:layout_constraintTop_toBottomOf="@+id/recitersName"
+        tools:text="مرتل" />
+
+
+    <ImageView
+
+
+        android:id="@+id/playAyaButton"
+        android:layout_width="52dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rewaya"
+        app:srcCompat="@drawable/ic_play" />
+
+
+</android.support.constraint.ConstraintLayout>
